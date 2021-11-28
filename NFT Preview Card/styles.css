@@ -1,0 +1,114 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  width: 1440px;
+  font-family: Outfit;
+  box-sizing: border-box;
+}
+
+.card-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(216, 50%, 16%);
+  width: 20%;
+  border-radius: 15px;
+}
+
+.card-container .eq-picture {
+  width: 85%;
+  display: block;
+  margin: 25px 0 0 25px;
+  border-radius: 15px;
+}
+
+.card-container h2 {
+  padding-top: 25px;
+  padding-left: 25px;
+  color: hsl(0, 0%, 100%);
+}
+
+.card-container .descrip {
+    width: 85%;
+    padding-left: 25px;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.card-container .flex-info {
+  display: inline-flex;
+  padding-left: 25px;
+  width: 85%;
+  margin-bottom: 0px;
+  align-items: center;
+}
+
+.card-container .price {
+  color: hsl(178, 100%, 50%);
+  padding-left: 10px;
+}
+
+.flex-info .clock {
+    margin-left: auto;
+    width: 17px;
+    height: 17px;
+}
+
+.flex-info .logo {
+    width: 11px;
+    height: 18px;
+}
+
+.card-container .time {
+    color: hsl(215, 51%, 70%);
+    padding-left: 10px;
+}
+
+.card-container .footer {
+    display: flex;
+    align-items: center;
+}
+
+.card-container .footer .avatar {
+    width: 35px;
+    height: 35px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-left: 25px;
+}
+
+.card-container .footer p {
+    color: hsl(215, 51%, 70%);
+    margin-left: 15px;
+    
+}
+
+.card-container .footer span {
+    color: hsl(0, 0%, 100%);
+  }
+
+.card-container .line {
+  color: hsl(215, 32%, 27%);
+  width: 85%;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color:hsl(215, 51%, 70%);
+    font-size: 12px;
+    margin: 0 auto;
+}
+
+footer p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer a {
+    color: white;
+}
